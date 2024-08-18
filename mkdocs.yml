@@ -1,3 +1,4 @@
+comments: true
 repo_url: https://github.com/moyuhualuo/NIT_Book
 repo_name: Moyu
 edit_uri: edit/main/docs/
@@ -5,8 +6,8 @@ site_name: NIT_Book
 site_url: https://example.com
 
 theme:
-
   name: material
+  custom_dir: overrides
   favicon: images/favicon.png
   icon:
     repo: fontawesome/brands/github-alt
@@ -30,32 +31,20 @@ theme:
         icon: material/brightness-6
         name: Dark
 
-extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: 中文
-      link: /cn/
-      lang: cn
-  homepage: https://github.com
-
-
 plugins:
   - git-revision-date-localized:
-    enable_creation_date: true
-    fallback_to_build_date: true
-    type: date
-    enabled: !ENV [CI, True]
-    enable_creation_date: true
-    fallback_to_build_date: true
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: date
+      enabled: !ENV [CI, True]
   - git-committers:
       repository: moyuhualuo/mk-docs-material
       branch: main
-      branch: main
   - git-authors
+
 plugins:
   - search
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -69,3 +58,21 @@ extra:
       name: Email me
 
 copyright: Copyright &copy; 2024 NIT_Book
+
+
+  
+extra_javascript:
+  - javascripts/extra.js
+extra_css:
+  - stylesheets/extra.css
+extra:
+  giscus:
+    repo: moyuhualuo/NIT_Book
+    repo-id: R_kgDOMk8aDQ
+    category: General
+    category-id: DIC_kwDOMk8aDc4ChwSO
+    mapping: pathname
+    reactions-enabled: true
+    input-position: bottom
+    theme: preferred_color_scheme
+    lang: en
