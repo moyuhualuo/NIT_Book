@@ -1,10 +1,15 @@
+repo_url: https://github.com/moyuhualuo/NIT_Book
+repo_name: Moyu
+edit_uri: edit/main/docs/
 site_name: NIT_Book
 site_url: https://example.com
 
 theme:
+
   name: material
   favicon: images/favicon.png
   icon:
+    repo: fontawesome/brands/github-alt
     logo: material/library
   features:
     - navigation.instant
@@ -34,8 +39,25 @@ extra:
       link: /cn/
       lang: cn
   homepage: https://github.com
-  version:
 
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-revision-date-localized:
+      type: date
+  - git-revision-date-localized:
+      enabled: !ENV [CI, True]
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - git-committers:
+      repository: squidfunk/mkdocs-material
+      branch: main
+  - git-committers:
+      branch: main
+  - git-authors
 plugins:
   - search
 extra:
