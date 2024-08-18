@@ -43,19 +43,15 @@ extra:
 
 plugins:
   - git-revision-date-localized:
-      enable_creation_date: true
-  - git-revision-date-localized:
-      type: date
-  - git-revision-date-localized:
-      enabled: !ENV [CI, True]
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - git-revision-date-localized:
-      fallback_to_build_date: true
+    enable_creation_date: true
+    fallback_to_build_date: true
+    type: date
+    enabled: !ENV [CI, True]
+    enable_creation_date: true
+    fallback_to_build_date: true
   - git-committers:
-      repository: squidfunk/mkdocs-material
+      repository: moyuhualuo/mk-docs-material
       branch: main
-  - git-committers:
       branch: main
   - git-authors
 plugins:
