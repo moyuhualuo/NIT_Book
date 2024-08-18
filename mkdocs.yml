@@ -1,0 +1,53 @@
+site_name: NIT_Book
+site_url: https://example.com
+
+theme:
+  name: material
+  favicon: images/favicon.png
+  icon:
+    logo: material/library
+  features:
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - search.share
+    - header.autohide
+    - navigation.footer
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-6
+        name: Light
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-6
+        name: Dark
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /cn/
+      lang: cn
+  homepage: https://github.com
+  version:
+
+plugins:
+  - search
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/moyuhualuo
+      name: My GitHub
+    - icon: material/web
+      link: https://github.com/moyuhualuo
+      name: My web
+    - icon: material/email-edit
+      link: mailto:<2633699957@qq.com>
+      name: Email me
+
+copyright: Copyright &copy; 2024 NIT_Book
