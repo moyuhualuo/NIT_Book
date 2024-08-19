@@ -1,6 +1,18 @@
-{% if page.meta.comments %}
-<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
-<!-- Insert generated snippet here -->
+<script
+  src="https://giscus.app/client.js"
+  data-repo="moyuhualuo/NIT_Book"
+  data-repo-id="R_kgDOMk8aDQ"
+  data-category="General"
+  data-category-id="DIC_kwDOMk8aDc4ChwSO"
+  data-mapping="pathname"
+  data-reactions-enabled="true"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
 
 <!-- Synchronize Giscus theme with palette -->
 <script>
@@ -9,7 +21,8 @@
   // Set palette on initial load
   var palette = __md_get("__palette");
   if (palette && typeof palette.color === "object") {
-    var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light";
+    var theme =
+      palette.color.scheme === "slate" ? "dark_protanopia" : "light_protanopia";
 
     // Instruct Giscus to set theme
     giscus.setAttribute("data-theme", theme);
@@ -22,7 +35,9 @@
       var palette = __md_get("__palette");
       if (palette && typeof palette.color === "object") {
         var theme =
-          palette.color.scheme === "slate" ? "transparent_dark" : "light";
+          palette.color.scheme === "slate"
+            ? "dark_protanopia"
+            : "light_protanopia";
 
         // Instruct Giscus to change theme
         var frame = document.querySelector(".giscus-frame");
@@ -34,20 +49,3 @@
     });
   });
 </script>
-{% endif %}
-<script
-  src="https://giscus.app/client.js"
-  data-repo="moyuhualuo/NIT_Book"
-  data-repo-id="R_kgDOMk8aDQ"
-  data-category="General"
-  data-category-id="DIC_kwDOMk8aDc4ChwSO"
-  data-mapping="pathname"
-  data-reactions-enabled="true"
-  data-emit-metadata="0"
-  data-input-position="bottom"
-  data-theme="light"
-  data-lang="en"
-  crossorigin="anonymous"
-  async
-  data-theme="preferred_color_scheme"
-></script>

@@ -1,9 +1,3 @@
----
-hide:
-  - footer
-  - header
----
-
 # 南阳理工学院入学指南
 
 demo

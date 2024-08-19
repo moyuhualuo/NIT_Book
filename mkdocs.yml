@@ -1,9 +1,14 @@
-comments: true
+
+
+
+
+
+
 repo_url: https://github.com/moyuhualuo/NIT_Book
 repo_name: Moyu
 edit_uri: edit/main/docs/
 site_name: NIT_Book
-site_url: https://example.com
+site_url: https://moyuhualuo.github.io/NIT_Book/
 
 theme:
   name: material
@@ -19,8 +24,18 @@ theme:
     - search.share
     - header.autohide
     - navigation.footer
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.expand
+    - navigation.path
+  hide:
+  - footer
+  - header
+  comments: true
   palette:
     - scheme: default
+      primary: lndigo
+      accent: deep purple
       toggle:
         icon: material/brightness-6
         name: Light
@@ -44,32 +59,10 @@ plugins:
 
 plugins:
   - search
+  - offline
 
 copyright: Copyright &copy; 2024 NIT_Book
 
-extra_javascript:
-  - javascripts/extra.js
-extra_css:
-  - stylesheets/extra.css
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/moyuhualuo
-      name: My GitHub
-    - icon: simple/blogger
-      link: https://laumoyu.blogspot.com/
-      name: My blog
-    - icon: material/email-edit
-      link: mailto:<2633699957@qq.com>
-      name: Email me
-      
-  giscus:
-    repo: moyuhualuo/NIT_Book
-    repo-id: R_kgDOMk8aDQ
-    category: General
-    category-id: DIC_kwDOMk8aDc4ChwSO
-    mapping: pathname
-    reactions-enabled: true
-    input-position: bottom
-    theme: preferred_color_scheme
-    lang: en
+
+
+
