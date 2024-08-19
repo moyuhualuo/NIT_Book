@@ -1,26 +1,38 @@
 # 南阳理工学院入学指南
 
-demo
+我依稀记得 2023 年的夏，月亮很圆，很美。<br/>
+我看着[南阳理工学院入学指南](https://cn.bing.com/search?q=%E5%8D%97%E9%98%B3%E7%90%86%E5%B7%A5%E5%85%A5%E5%AD%A6%E6%8C%87%E5%8D%97)，<br/>
+但，梦很短，我无法找到。<br/>
+然而，庆幸由无而得此。
 
-## Commands
+## 关于指南
 
-demo
+如果严谨的说，目前应该叫计软入学指南，旨在帮助新生更好的了解校园，以及作为大学生，应该有什么样的机遇和挑战，应该怎么在当今商业化简历和学历贬值的今天，对新生的一些建议。</br>
+感谢已经步入社会，考研上岸，学长学姐，各同学的贡献，没有他们的帮助，就不会有 NIT Book。
 
-## Project layout
+## 板块说明
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+> 各板块简要说明
 
-## demo
+    校园生活：初入校园，生活遍历
+    新的体系：新的规则，新的世界
+    关于课堂：上什么课，怎么上课
+    关于社团：社团环境，社团资源
+    考证建议：考什么证，为什么考
+    自学分析：自学优缺，如何自学
+    如何规划：规划原则，80% 理论
+    考研流程：流程细则，经验分享
+    专访篇：
+    ---待更新
 
-demo
+## 一起加入
 
-### demo2
+如有不妥或错误，请及时指正，可右下角 Emai 或 Github Question 区留言。<br/>
+如有建议，同上。<br/>
+欢迎 PR 投搞。
 
-demo2
+## 一些话
 
-#### demo3
+感谢[CS 自学指南](https://csdiy.wiki/)，[上交指南](https://survivesjtu.gitbook.io/survivesjtumanual)的启发。上一刻网上的受益者，下一刻可以是开源的发起者！
 
-demo3
+> 很多时候，消息，资源的闭塞性，对大部分大学生来说，身为具有享用权的身份，但却不能很好的使用，故此，本指南的意义具象化。

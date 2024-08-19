@@ -1,13 +1,8 @@
 
-
-
-
-
-
 repo_url: https://github.com/moyuhualuo/NIT_Book
 repo_name: Moyu
 edit_uri: edit/main/docs/
-site_name: NIT_Book
+site_name: NIT Book
 site_url: https://moyuhualuo.github.io/NIT_Book/
 
 theme:
@@ -64,5 +59,10 @@ plugins:
 copyright: Copyright &copy; 2024 NIT_Book
 
 
-
+nav:
+  - 指南简要: index.md
+  - 校园生活:
+      - 初入校园: 校园生活/初入校园.md
+  - 新的体系:
+      - 班级职位优缺分析: 校园生活/班级职位优缺分析.md
 
