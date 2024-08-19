@@ -27,7 +27,7 @@
 
 ## 一起加入
 
-如有不妥或错误，请及时指正，可右下角 Emai 或 Github Question 区留言。<br/>
+如有不妥或错误，请及时指正，可右下角(手机端左下) Emai 或 Github Question 区留言。<br/>
 如有建议，同上。<br/>
 欢迎 PR 投搞。
 
