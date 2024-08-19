@@ -56,6 +56,19 @@ plugins:
   - search
   - offline
 
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/moyuhualuo
+      name: My GitHub
+    - icon: material/web
+      link: https://github.com/moyuhualuo
+      name: My web
+    - icon: material/email-edit
+      link: mailto:<2633699957@qq.com>
+      name: Email me
+
 copyright: Copyright &copy; 2024 NIT_Book
 
 
@@ -64,5 +77,5 @@ nav:
   - 校园生活:
       - 初入校园: 校园生活/初入校园.md
   - 新的体系:
-      - 班级职位优缺分析: 校园生活/班级职位优缺分析.md
+      - 班级职位优缺分析: 新的体系/班级职位优缺分析.md
 
