@@ -63,8 +63,11 @@ extra:
       link: https://github.com/moyuhualuo
       name: My GitHub
     - icon: material/web
-      link: https://github.com/moyuhualuo
+      link: https://moyu.pythonanywhere.com/
       name: My web
+    - icon: simple/blogger
+      link: https://laumoyu.blogspot.com/
+      name: My blog
     - icon: material/email-edit
       link: mailto:<2633699957@qq.com>
       name: Email me
