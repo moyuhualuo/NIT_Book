@@ -77,6 +77,8 @@ copyright: Copyright &copy; 2024 NIT_Book
 
 nav:
   - 指南简要: index.md
+  - 加工区:
+      - C: 加工区/c.md
   - 校园生活:
       - 初入校园: 校园生活/初入校园.md
   - 新的体系:
