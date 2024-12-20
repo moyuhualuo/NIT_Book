@@ -33,13 +33,13 @@ theme:
       accent: deep purple
       toggle:
         icon: material/brightness-6
-        name: Light
+        name: Dark
     - scheme: slate
       primary: deep purple
       accent: deep purple
       toggle:
-        icon: material/brightness-6
-        name: Dark
+        icon: material/brightness-7
+        name: Light
 
 plugins:
   - git-revision-date-localized:
