@@ -16,16 +16,17 @@
 
 - [CS106L](https://web.stanford.edu/class/cs106l/)
 > 快速入门课程（核心出装英语，跟着PPT速成1周即可）
-- https://www.codecademy.com/learn
+可以参考我的[学习笔记]()
+- [codecademy](https://www.codecademy.com/learn)
 > - 在线实操`C/CPP`，通过`g++`编辑
 >  - 有`AI`辅助
->  - ps：做到后面发现付费！！但是 0 基础白嫖前几个还是推荐
+>  - ps：做到后面发现付费！！**但是 0 基础白嫖前几个还是推荐, 2小时完成。**
 - [CS50X](https://cs50.harvard.edu/x/2024/)
 >  - 哈佛公开课，网站有详细文档，教你如何自学这门课程
 >  - 由浅入深，甚至搭建个人网页（Flsak） 
-- https://www.geeksforgeeks.org/data-structures/
+- [geeksforgeeks](https://www.geeksforgeeks.org/data-structures/)
 >  - 详细数据结构教程文档
-- https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+- [usfac](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 >  - 数据结构可视化网站，帮助你更清晰的了解数据结构
 - [C-learn](https://www.learn-c.org/)
 >  - 速成语法文档，广告较多，值得注意的是网站是`Flask`框架搭建
@@ -42,7 +43,7 @@
 
 - [Codeforce](https://codeforces.com/contest)
 >  - 全球最大的算法竞赛网站，题目英文，每场比赛可以 VP，适合练习数据结构与算法，每场比赛有题解，能够看大神代码
-- [At](https://atcoder.jp/)
+- [Atcoder](https://atcoder.jp/)
 >  - 同上，只不过是日本的网站，有视频讲解
 - [CSES](https://cses.fi/problemset/)
 >  - 详细题单练习
